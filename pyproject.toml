@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mlops"
+version = "0.1.0"
+description = ""
+authors = ["TheFunktion <matthew.landowski@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+neptune = "^1.13.0"
+optuna = "^4.1.0"
+category-encoders = "^2.6.4"
+scikit-learn = "^1.5.2"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
